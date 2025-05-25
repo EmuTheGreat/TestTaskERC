@@ -1,0 +1,174 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\repositories\\TestTaskERC\\TestTask\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CE7B0E94-B929-4EEF-BDBB-E1F7E5A2C022}|TestTask\\TestTask.csproj|e:\\repositories\\testtaskerc\\testtask\\testtask\\dal\\billingcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE7B0E94-B929-4EEF-BDBB-E1F7E5A2C022}|TestTask\\TestTask.csproj|solutionrelative:testtask\\dal\\billingcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE7B0E94-B929-4EEF-BDBB-E1F7E5A2C022}|TestTask\\TestTask.csproj|e:\\repositories\\testtaskerc\\testtask\\testtask\\dal\\models\\servicetariff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE7B0E94-B929-4EEF-BDBB-E1F7E5A2C022}|TestTask\\TestTask.csproj|solutionrelative:testtask\\dal\\models\\servicetariff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE7B0E94-B929-4EEF-BDBB-E1F7E5A2C022}|TestTask\\TestTask.csproj|e:\\repositories\\testtaskerc\\testtask\\testtask\\dal\\models\\servicenorm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE7B0E94-B929-4EEF-BDBB-E1F7E5A2C022}|TestTask\\TestTask.csproj|solutionrelative:testtask\\dal\\models\\servicenorm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE7B0E94-B929-4EEF-BDBB-E1F7E5A2C022}|TestTask\\TestTask.csproj|e:\\repositories\\testtaskerc\\testtask\\testtask\\dal\\models\\residentcount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE7B0E94-B929-4EEF-BDBB-E1F7E5A2C022}|TestTask\\TestTask.csproj|solutionrelative:testtask\\dal\\models\\residentcount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE7B0E94-B929-4EEF-BDBB-E1F7E5A2C022}|TestTask\\TestTask.csproj|e:\\repositories\\testtaskerc\\testtask\\testtask\\dal\\models\\monthlyreading.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE7B0E94-B929-4EEF-BDBB-E1F7E5A2C022}|TestTask\\TestTask.csproj|solutionrelative:testtask\\dal\\models\\monthlyreading.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE7B0E94-B929-4EEF-BDBB-E1F7E5A2C022}|TestTask\\TestTask.csproj|e:\\repositories\\testtaskerc\\testtask\\testtask\\dal\\models\\bill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE7B0E94-B929-4EEF-BDBB-E1F7E5A2C022}|TestTask\\TestTask.csproj|solutionrelative:testtask\\dal\\models\\bill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE7B0E94-B929-4EEF-BDBB-E1F7E5A2C022}|TestTask\\TestTask.csproj|e:\\repositories\\testtaskerc\\testtask\\testtask\\logic\\servicetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE7B0E94-B929-4EEF-BDBB-E1F7E5A2C022}|TestTask\\TestTask.csproj|solutionrelative:testtask\\logic\\servicetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE7B0E94-B929-4EEF-BDBB-E1F7E5A2C022}|TestTask\\TestTask.csproj|e:\\repositories\\testtaskerc\\testtask\\testtask\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE7B0E94-B929-4EEF-BDBB-E1F7E5A2C022}|TestTask\\TestTask.csproj|solutionrelative:testtask\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ServiceType.cs",
+              "DocumentMoniker": "E:\\repositories\\TestTaskERC\\TestTask\\TestTask\\Logic\\ServiceType.cs",
+              "RelativeDocumentMoniker": "TestTask\\Logic\\ServiceType.cs",
+              "ToolTip": "E:\\repositories\\TestTaskERC\\TestTask\\TestTask\\Logic\\ServiceType.cs",
+              "RelativeToolTip": "TestTask\\Logic\\ServiceType.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACIAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T20:58:28.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ServiceTariff.cs",
+              "DocumentMoniker": "E:\\repositories\\TestTaskERC\\TestTask\\TestTask\\Dal\\Models\\ServiceTariff.cs",
+              "RelativeDocumentMoniker": "TestTask\\Dal\\Models\\ServiceTariff.cs",
+              "ToolTip": "E:\\repositories\\TestTaskERC\\TestTask\\TestTask\\Dal\\Models\\ServiceTariff.cs",
+              "RelativeToolTip": "TestTask\\Dal\\Models\\ServiceTariff.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBgAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T20:53:49.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ServiceNorm.cs",
+              "DocumentMoniker": "E:\\repositories\\TestTaskERC\\TestTask\\TestTask\\Dal\\Models\\ServiceNorm.cs",
+              "RelativeDocumentMoniker": "TestTask\\Dal\\Models\\ServiceNorm.cs",
+              "ToolTip": "E:\\repositories\\TestTaskERC\\TestTask\\TestTask\\Dal\\Models\\ServiceNorm.cs",
+              "RelativeToolTip": "TestTask\\Dal\\Models\\ServiceNorm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T20:53:44.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Bill.cs",
+              "DocumentMoniker": "E:\\repositories\\TestTaskERC\\TestTask\\TestTask\\Dal\\Models\\Bill.cs",
+              "RelativeDocumentMoniker": "TestTask\\Dal\\Models\\Bill.cs",
+              "ToolTip": "E:\\repositories\\TestTaskERC\\TestTask\\TestTask\\Dal\\Models\\Bill.cs",
+              "RelativeToolTip": "TestTask\\Dal\\Models\\Bill.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T20:53:04.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ResidentCount.cs",
+              "DocumentMoniker": "E:\\repositories\\TestTaskERC\\TestTask\\TestTask\\Dal\\Models\\ResidentCount.cs",
+              "RelativeDocumentMoniker": "TestTask\\Dal\\Models\\ResidentCount.cs",
+              "ToolTip": "E:\\repositories\\TestTaskERC\\TestTask\\TestTask\\Dal\\Models\\ResidentCount.cs",
+              "RelativeToolTip": "TestTask\\Dal\\Models\\ResidentCount.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T20:52:54.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MonthlyReading.cs",
+              "DocumentMoniker": "E:\\repositories\\TestTaskERC\\TestTask\\TestTask\\Dal\\Models\\MonthlyReading.cs",
+              "RelativeDocumentMoniker": "TestTask\\Dal\\Models\\MonthlyReading.cs",
+              "ToolTip": "E:\\repositories\\TestTaskERC\\TestTask\\TestTask\\Dal\\Models\\MonthlyReading.cs",
+              "RelativeToolTip": "TestTask\\Dal\\Models\\MonthlyReading.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAoAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T20:51:48.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BillingContext.cs",
+              "DocumentMoniker": "E:\\repositories\\TestTaskERC\\TestTask\\TestTask\\Dal\\BillingContext.cs",
+              "RelativeDocumentMoniker": "TestTask\\Dal\\BillingContext.cs",
+              "ToolTip": "E:\\repositories\\TestTaskERC\\TestTask\\TestTask\\Dal\\BillingContext.cs",
+              "RelativeToolTip": "TestTask\\Dal\\BillingContext.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAA9wCEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T20:50:14.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\repositories\\TestTaskERC\\TestTask\\TestTask\\Program.cs",
+              "RelativeDocumentMoniker": "TestTask\\Program.cs",
+              "ToolTip": "E:\\repositories\\TestTaskERC\\TestTask\\TestTask\\Program.cs",
+              "RelativeToolTip": "TestTask\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T20:01:36.714Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 40,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
