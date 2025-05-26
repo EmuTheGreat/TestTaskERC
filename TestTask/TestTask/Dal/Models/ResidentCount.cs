@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -11,7 +12,11 @@ namespace TestTask.dal.Models
     /// </summary>
     public class ResidentCount
     {
-        public int Id { get; set; }
+        public Guid Id { get; set; } = Guid.NewGuid();
+        
+        [ForeignKey(nameof(Tenant))]
+        public Guid TenantId { get; set; }
+        
         /// <summary>
         /// Дата начала периода проживания
         /// </summary>
@@ -19,10 +24,12 @@ namespace TestTask.dal.Models
         /// <summary>
         /// Дата окончания периода проживания
         /// </summary>
+
         public DateTime To { get; set; }
         /// <summary>
         /// Количество человек
         /// </summary>
+
         public int Count { get; set; }
         /// <summary>
         /// Месяц расчета

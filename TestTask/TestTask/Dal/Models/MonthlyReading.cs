@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,7 +13,10 @@ namespace TestTask.dal.Models
     /// </summary>
     public class MonthlyReading
     {
-        public int Id { get; set; }
+        public Guid Id { get; set; } = Guid.NewGuid();
+        
+        [ForeignKey(nameof(Tenant))]
+        public Guid TenantId { get; set; }
 
         /// <summary>
         /// Тип услгуи

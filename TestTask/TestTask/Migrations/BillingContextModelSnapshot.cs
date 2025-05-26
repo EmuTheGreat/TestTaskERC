@@ -19,11 +19,14 @@ namespace TestTask.Migrations
 
             modelBuilder.Entity("TestTask.dal.Models.Bill", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("INTEGER");
+                        .HasColumnType("TEXT");
 
                     b.Property<double>("ColdWaterCharge")
+                        .HasColumnType("REAL");
+
+                    b.Property<double>("ElectricityCharge")
                         .HasColumnType("REAL");
 
                     b.Property<double>("ElectricityDayCharge")
@@ -41,16 +44,24 @@ namespace TestTask.Migrations
                     b.Property<DateTime>("Month")
                         .HasColumnType("TEXT");
 
+                    b.Property<Guid>("TenantId")
+                        .HasColumnType("TEXT");
+
+                    b.Property<double>("Total")
+                        .HasColumnType("REAL");
+
                     b.HasKey("Id");
+
+                    b.HasIndex("TenantId");
 
                     b.ToTable("Bills");
                 });
 
             modelBuilder.Entity("TestTask.dal.Models.MonthlyReading", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("INTEGER");
+                        .HasColumnType("TEXT");
 
                     b.Property<double>("Current")
                         .HasColumnType("REAL");
@@ -64,16 +75,21 @@ namespace TestTask.Migrations
                     b.Property<int>("Service")
                         .HasColumnType("INTEGER");
 
+                    b.Property<Guid>("TenantId")
+                        .HasColumnType("TEXT");
+
                     b.HasKey("Id");
+
+                    b.HasIndex("TenantId");
 
                     b.ToTable("MonthlyReadings");
                 });
 
             modelBuilder.Entity("TestTask.dal.Models.ResidentCount", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("INTEGER");
+                        .HasColumnType("TEXT");
 
                     b.Property<int>("Count")
                         .HasColumnType("INTEGER");
@@ -84,10 +100,15 @@ namespace TestTask.Migrations
                     b.Property<DateTime>("Month")
                         .HasColumnType("TEXT");
 
+                    b.Property<Guid>("TenantId")
+                        .HasColumnType("TEXT");
+
                     b.Property<DateTime>("To")
                         .HasColumnType("TEXT");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("TenantId");
 
                     b.ToTable("ResidentCounts");
                 });
@@ -101,8 +122,9 @@ namespace TestTask.Migrations
                     b.Property<DateTime>("EffectiveFrom")
                         .HasColumnType("TEXT");
 
-                    b.Property<int>("Service")
-                        .HasColumnType("INTEGER");
+                    b.Property<string>("Service")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
 
                     b.Property<double>("Value")
                         .HasColumnType("REAL");
@@ -123,8 +145,9 @@ namespace TestTask.Migrations
                     b.Property<DateTime>("EffectiveFrom")
                         .HasColumnType("TEXT");
 
-                    b.Property<int>("Service")
-                        .HasColumnType("INTEGER");
+                    b.Property<string>("Service")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
 
                     b.Property<double>("Value")
                         .HasColumnType("REAL");
@@ -134,6 +157,61 @@ namespace TestTask.Migrations
                     b.HasIndex("Service", "EffectiveFrom");
 
                     b.ToTable("Tariffs");
+                });
+
+            modelBuilder.Entity("TestTask.dal.Models.Tenant", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Address")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Tenants");
+                });
+
+            modelBuilder.Entity("TestTask.dal.Models.Bill", b =>
+                {
+                    b.HasOne("TestTask.dal.Models.Tenant", null)
+                        .WithMany("Bills")
+                        .HasForeignKey("TenantId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("TestTask.dal.Models.MonthlyReading", b =>
+                {
+                    b.HasOne("TestTask.dal.Models.Tenant", null)
+                        .WithMany("MonthlyReadings")
+                        .HasForeignKey("TenantId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("TestTask.dal.Models.ResidentCount", b =>
+                {
+                    b.HasOne("TestTask.dal.Models.Tenant", null)
+                        .WithMany("ResidentCounts")
+                        .HasForeignKey("TenantId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("TestTask.dal.Models.Tenant", b =>
+                {
+                    b.Navigation("Bills");
+
+                    b.Navigation("MonthlyReadings");
+
+                    b.Navigation("ResidentCounts");
                 });
 #pragma warning restore 612, 618
         }

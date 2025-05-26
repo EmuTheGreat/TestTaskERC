@@ -14,7 +14,7 @@ namespace TestTask.dal.Models
         /// <summary>
         /// Тип услуги
         /// </summary>
-        public ServiceType Service { get; set; }
+        public string Service { get; set; }
 
         /// <summary>
         /// Значение тарифа
@@ -22,7 +22,7 @@ namespace TestTask.dal.Models
         public double Value { get; set; }
 
         /// <summary>
-        /// Дата начала дейсвтия тарифа
+        /// Дата начала действия тарифа
         /// </summary>
         public DateTime EffectiveFrom { get; set; }
     }

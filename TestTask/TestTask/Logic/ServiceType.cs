@@ -27,13 +27,18 @@ namespace TestTask.Logic
         HotWaterHeat = 2,
 
         /// <summary>
+        /// ЭЭ
+        /// </summary>
+        Electricity = 3,
+        
+        /// <summary>
         /// ЭЭ дневная
         /// </summary>
-        ElectricityDay = 3,
+        ElectricityDay = 4,
 
         /// <summary>
         /// ЭЭ ночаня
         /// </summary>
-        ElectricityNight = 4,
+        ElectricityNight = 5,
     }
 }
